@@ -144,8 +144,8 @@ header {
     top: 10vh;
     left: 30%;
     transform: translateX(-30%);
-    width: 350px;
-    height: 250px;
+    width: 330px;
+    height: 380px;
     border-radius: 10px;
     z-index: 2;
 }
