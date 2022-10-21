@@ -144,8 +144,8 @@ header {
     top: 10vh;
     left: 30%;
     transform: translateX(-30%);
-    width: 330px;
-    height: 380px;
+    width: 350px;
+    height: 250px;
     border-radius: 10px;
     z-index: 2;
 }
@@ -221,10 +221,11 @@ h2{
     width: 100vw;
     background-color: var(--tertiary-color);
 }
-h3{
+.resources h3{
     color:#fff;
     text-decoration: underline;
     text-decoration-line: underline;
+    text-align: center;
     margin-bottom: 1.5rem;
 }
 .card{
@@ -257,7 +258,8 @@ h4{
 }
 .mint{
     color: var(--on-primary);
-    margin-top: 1rem;
+    margin:1rem 0;
+    text-align: center;
 }
 hr{
     border: 1px solid var(--tertiary-color)
@@ -298,12 +300,15 @@ hr{
 form h3 {
     color: var(--on-primary);
     text-decoration: none;
+    text-align: center;
     margin: 0;
 }
 .form-control {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height:3rem;
+    width: 350px;
+    margin: 0 auto 2rem auto;
 }
 #email {
     padding: 0rem 0.8rem;
@@ -341,7 +346,7 @@ footer{
     line-height: 2rem;
     background-color: var(--secondary-color);
     text-align: center;
-    padding-top: 1rem;
+    padding: 1rem 0 1.5rem 0;
 }
 
 footer ul li{
@@ -353,7 +358,7 @@ footer ul li a{
 }
 footer .social{
     display: flex;
-    gap: 1rem;
+    gap:1.5rem;
 }
 @media (min-width:768px){
     body{
@@ -422,8 +427,8 @@ footer .social{
     }
     .top .hero{
         position: relative;
-        width: 300px;
-        height: 400px;
+        width: 330px;
+        height: 380px;
         border-radius: 50%;
         top: 0;
         left: 10vw;
